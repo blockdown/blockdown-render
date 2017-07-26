@@ -1,0 +1,34 @@
+{
+  "name": "blockdown-render",
+  "version": "1.0.0",
+  "description": "Blockdown specification and parser.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockdown/blockdown-render.git"
+  },
+  "keywords": [
+    "blockdown",
+    "markdown",
+    "documentation",
+    "curriculum"
+  ],
+  "author": "Keshav Saharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockdown/blockdown-render/issues"
+  },
+  "homepage": "https://github.com/blockdown/blockdown-render#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "marked": "^0.3.6",
+    "nunjucks": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
